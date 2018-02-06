@@ -1,0 +1,50 @@
+name: Level One
+type: profile
+description: 'Custom installation profile that enables most of the commonly used core and contrib modules.'
+version: '8.1.0'
+core: '8.x'
+dependencies:
+  - node
+  - block
+  - breakpoint
+  - ckeditor
+  - config
+  - contextual
+  - menu_link_content
+  - block_content
+  - editor
+  - image
+  - menu_ui
+  - options
+  - path
+  - dblog
+  - shortcut
+  - toolbar
+  - field_ui
+  - file
+  - rdf
+  - views
+  - views_ui
+  - tour
+  - admin_toolbar
+  - admin_toolbar_tools
+  - backup_migrate
+  - captcha
+  - chosen
+  - ctools
+  - devel
+  - entity
+  - examples
+  - field_group
+  - google_analytics
+  - inline_entity_form
+  - pathauto
+  - recaptcha
+  - redirect
+  - rules
+  - token
+  - typed_data
+  - webform
+themes:
+  - bartik
+  - seven
