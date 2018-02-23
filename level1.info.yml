@@ -45,6 +45,7 @@ dependencies:
   - token
   - typed_data
   - webform
+  - coffee
 themes:
   - bartik
   - seven
