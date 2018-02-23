@@ -1,0 +1,12 @@
+langcode: en
+status: true
+dependencies: {  }
+id: weekly_database_backup
+label: 'Weekly database backup'
+enabled: true
+keep: null
+period: 604800
+cron: null
+source_id: default_db
+destination_id: private_files
+settings_profile_id: null

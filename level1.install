@@ -44,6 +44,11 @@ function level1_install() {
     ->set('use_admin_theme', TRUE)
     ->save(TRUE);
 
+  // Remove the default Backup and Migrate daily schedule.
+  \Drupal::configFactory()
+    ->getEditable('backup_migrate.backup_migrate_schedule.daily_schedule')
+    ->delete();
+
   // Assign user 1 the "administrator" role.
   $superuser = User::load(1);
   $superuser->roles[] = 'administrator';
