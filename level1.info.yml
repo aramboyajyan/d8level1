@@ -46,6 +46,7 @@ dependencies:
   - typed_data
   - webform
   - coffee
+  - editor_advanced_link
 themes:
   - bartik
   - seven
